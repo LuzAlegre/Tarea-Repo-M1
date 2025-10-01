@@ -1,73 +1,79 @@
-#titulo2{
-    color: black;
-    text-decoration: underline;
+
+
+h1{
+    color: blueviolet;
+    font-size: 100px;
+    font-weight: bold;
+    margin-left: 100px;
 }
 
-#titulo{
-    color: crimson;
-}
-
-.tituloh2{
-    color: darkgreen;
-}
-.tituloh2:hover{
+.titulo{
+    color: rgb(61, 4, 4);
     font-size: 50px;
-}
-.contenedor-de-secciones{
-    background-color: rgb(20, 94, 255);
-    display: flex;
-    flex-direction: row;
-    justify-content: space-evenly;
+    font-weight: bold;  
+    margin-top: 20px;
 }
 
-.seccion-1{
-    background-color: blue;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-     }
-.seccion-2{
-    background-color: chartreuse;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    border: 2px solid black;
-    border-radius: 55px;
-    
-}
-.seccion-2:hover{
-    background-color: red;
-    transition: 4s;
+h2{
+    color: rgb(61, 4, 4);
+    font-size: 50px;  
     
 }
 
-
-h1, h2, p {
-    color: aquamarine;
-   
+h3{
+    color: blue;
+    font-size: 30px;
+    margin-left: 500px;
 }
 
-p{
-   color: aqua;
+h4{
+    color: rgb(97, 55, 3);
+    font-size: 30px;
 }
 
-header {
-    background-color: chocolate;
-    width: 300px;
-    
+header{
+    background-color: blanchedalmond;
 }
+
 main{
-    background-color: beige;
-    display: flex;
-    flex-direction: column;
-    justify-content: flex-start;
-    align-items: stretch;
+    background-color: rgb(193, 233, 233);
 }
-
 
 footer{
-    background-color: darkgreen;
+    background-color: rgb(190, 149, 88);
+    font-size: large;
 }
+
 body{
-    background-color: goldenrod;
+    background-color: rgb(199, 94, 115);
 }
+
+section{
+    background-color: rgb(113, 219, 184);
+}
+
+div{
+    background-color: rgb(211, 163, 163);
+}
+
+p, span {
+    font-size: larger;
+    font-style: normal;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    justify-content: end;
+}
+
+ol, ul {
+    font-size: larger;
+    font-style: normal;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+
+
+
+
+
+
+
+
