@@ -8,6 +8,11 @@
     align-items: center;
 }
 
+.logo{
+    width: 200px;
+    height: 200px;
+    margin-left: 50px;
+}
 div{
      background-color: rgb(211, 163, 163);
      display: flex;
