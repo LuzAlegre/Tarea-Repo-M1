@@ -18,9 +18,18 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    gap: 20px;
-    margin-left: 100px;
-    margin-top: 20px;
+    width: fit-content;
+    padding:1em 1em 1em 1em;
+    border: 2px solid black;
+    border-radius: 15px;
+    gap: 1em;
+    transition: 1s;
+
+}
+
+.cards:hover{
+    background-color: crimson;
+
 }
 
 #cards-container {
@@ -32,7 +41,9 @@
     margin: auto;
     width: 90%;
     border: 2px solid black;
+    border-radius: 15px;
 }
+
 div{
      background-color: rgb(211, 163, 163);
      display: flex;
